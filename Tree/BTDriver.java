@@ -18,7 +18,7 @@ public class BTDriver
         BT_imp.inOrder(root);
         System.out.println(" ");
         System.out.println("-------------------------------------------------------");
-        System.out.print("Postgit Order =>");
+        System.out.print("Post Order =>");
         BT_imp.postOrder(root);
         System.out.println(" ");
         System.out.println("-------------------------------------------------------");
