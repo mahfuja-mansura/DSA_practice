@@ -1,6 +1,6 @@
 package Linked_list.Singly_linked_list;
 
-public class Required_methods
+public class SinglyLL
 {
     //Method 1
     public static Node createList(int[]arr)
