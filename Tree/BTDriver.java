@@ -7,7 +7,7 @@ public class BTDriver
 {
     public static void main(String[]args)
     {
-        int[]arr = {000,10,20,30,40,50,60,70,80,90,100};
+        char[]arr = {'X', 'A','B','C','D','E','F','G','H','I','J'};
         BTNode root = BT_imp.create_tree_from_array(arr,1);
     
         System.out.print("Pre Order =>");
@@ -22,14 +22,17 @@ public class BTDriver
         BT_imp.postOrder(root);
         System.out.println(" ");
         System.out.println("-------------------------------------------------------");
-        System.out.println("Depth of 90 is: " + BT_imp.depth(root, 90, 0));
+        System.out.println("Depth of I is: " + BT_imp.depth(root, 'I', 0));
         System.out.println("-------------------------------------------------------");
-        System.out.println("Height of 10 is: " + BT_imp.height(root));
+        System.out.println("Height of A is: " + BT_imp.height(root));
         System.out.println("-------------------------------------------------------");
         System.out.println("Number of Nodes: " + BT_imp.number_of_nodes(root));
         System.out.println("-------------------------------------------------------");
         System.out.println("Is the tree full?");
         System.out.println("=>" + BT_imp.is_full(root));
         System.out.println("=>" + BT_imp.isFull(root));
+        System.out.println("-------------------------------------------------------");
+        System.out.println("Is the tree complete?");
+        System.out.println("=>" + BT_imp.isComplete(root));
     }
 }

@@ -3,7 +3,7 @@ package Tree.Binary_Tree;
 public class BT_imp
 {
     //Method 1
-    public static BTNode create_tree_from_array(int[]arr, int i)
+    public static BTNode create_tree_from_array(char[]arr, int i)
     {
        if(i>=arr.length)
         {
@@ -114,4 +114,21 @@ public class BT_imp
         return isFull(root.left) && isFull(root.right);
     }
 
+    //Method 9
+    public static boolean isComplete(BTNode root)
+    {
+        if(root==null)
+        {
+            return true;
+        }
+        if(root.left!=null && root.right==null)
+        {
+            return true;
+        }
+         if(root.left==null && root.right!=null)
+        {
+            return false;
+        }
+        return isComplete(root.left) && isComplete(root.right);
+    }
 }
