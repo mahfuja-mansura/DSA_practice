@@ -1,7 +1,4 @@
-package Tree;
-
-import Tree.Binary_Tree.BTNode;
-import Tree.Binary_Tree.BT_imp;
+package Tree.Binary_Tree;
 
 public class BTDriver
 {
