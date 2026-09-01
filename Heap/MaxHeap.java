@@ -13,6 +13,10 @@ public class MaxHeap
         heap = new Integer[capacity+1]; 
     }
 
+    public int getSize()
+    {
+        return size;
+    }
     private int parent(int indx)
     {
         return indx/2;
