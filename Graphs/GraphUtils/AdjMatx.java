@@ -20,7 +20,7 @@ public class AdjMatx
         {
             for(int j = 0; j < adjMatx.length; j++)
             {
-                System.out.println(adjMatx[i][j] + " ");
+                System.out.print(adjMatx[i][j] + " ");
             }
             System.out.println();
         }
