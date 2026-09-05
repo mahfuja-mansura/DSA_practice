@@ -1,3 +1,5 @@
+package Arrays.Linear_arrays;
+
 import java.util.*;
 public class Required_methods
 {

@@ -1,3 +1,5 @@
+package Arrays.Linear_arrays;
+
 public class Practice_problem
 {
     public static void main(String[]args)

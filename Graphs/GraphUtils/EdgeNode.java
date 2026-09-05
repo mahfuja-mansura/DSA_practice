@@ -1,8 +1,9 @@
+package Graphs.GraphUtils;
 public class EdgeNode
 {
-    int toV;
-    int weight;
-    EdgeNode next;
+    public int toV;
+    public int weight;
+    public EdgeNode next;
     public EdgeNode(int toV, int weight)
     {
         this.toV = toV;

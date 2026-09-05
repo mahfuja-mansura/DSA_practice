@@ -1,3 +1,5 @@
+package Graphs.GraphUtils;
+
 public class AdjMatx
 {
     public static int[][] createMatx(int n)

@@ -1,3 +1,5 @@
+package Graphs.GraphUtils;
+
 public class AdjLL
 {
     public static void printLL(EdgeNode head)
